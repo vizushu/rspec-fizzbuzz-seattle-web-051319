@@ -11,7 +11,7 @@ def fizzbuzz(fizz)
   if fizz / 5 || 3
     puts "FizzBuzz"
   end
-  if fizz !/ 5 || 3
-    puts nil
-  end
+  # if fizz !/ 5 || 3
+  #   puts nil
+  # end
 end
