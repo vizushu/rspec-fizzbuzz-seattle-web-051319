@@ -8,9 +8,9 @@ def fizzbuzz(fizz)
   elsif fizz / 5
     return "Buzz"
   end
-  if fizz / 5 || 3
-    return "FizzBuzz"
-  end
+  # if fizz / 5 || 3
+  #   return "FizzBuzz"
+  # end
   # if fizz !/ 5 || 3
   #   puts nil
   # end
