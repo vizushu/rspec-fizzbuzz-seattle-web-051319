@@ -6,10 +6,10 @@ def fizzbuzz(fizz)
     return "Fizz"
   end
   if fizz / 5
-    puts "Buzz"
+    return "Buzz"
   end
   if fizz / 5 || 3
-    puts "FizzBuzz"
+    return "FizzBuzz"
   end
   # if fizz !/ 5 || 3
   #   puts nil
