@@ -3,12 +3,12 @@
 
 def fizzbuzz(fizz)
   if fizz / 3
-    put "Fizz"
+    puts "Fizz"
   end
   if fizz / 5
-    put "Buzz"
+    puts "Buzz"
   end
   if fizz / 5 || 3
-    put "FizzBuzz"
+    puts "FizzBuzz"
   end
 end
