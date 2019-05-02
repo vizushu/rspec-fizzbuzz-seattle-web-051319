@@ -4,6 +4,4 @@
 def fizzbuzz(Z)
   if Z / 3
     return "Fizz"
-  else Z / 5
-    return "Buzz"
 end
