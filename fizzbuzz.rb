@@ -3,7 +3,7 @@
 
 def fizzbuzz(fizz)
   if fizz / 3
-    puts "Fizz"
+    return "Fizz"
   end
   if fizz / 5
     puts "Buzz"
