@@ -8,6 +8,6 @@ def fizzbuzz(fizz)
   if fizz / 5
     put "Buzz"
   end
-  else fizz / 5 || 3
+  if fizz / 5 || 3
     put "FizzBuzz"
 end
