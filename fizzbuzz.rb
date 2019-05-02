@@ -4,5 +4,7 @@
 def fizzbuzz(fizz)
   if fizz / 5 || 3
     return "FizzBuzz"
+  else
+    return nil
   end
 end
