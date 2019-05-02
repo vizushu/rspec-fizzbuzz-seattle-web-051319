@@ -13,4 +13,5 @@ def fizzbuzz(fizz)
   end
   if fiz !/ 5 || 3
     puts nil
+  end
 end
