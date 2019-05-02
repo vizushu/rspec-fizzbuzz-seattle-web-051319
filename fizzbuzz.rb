@@ -8,10 +8,7 @@ def fizzbuzz(fizz)
     puts "Fizz"
   elsif fizz / 5
     puts "Buzz"
+  else
+      retrun nil
   end
-  
-  end
-  # if fizz !/ 5 || 3
-  #   puts nil
-  # end
 end
