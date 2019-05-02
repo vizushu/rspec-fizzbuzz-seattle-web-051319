@@ -2,14 +2,14 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(fizz)
-  if fizz / 3
-    puts "Fizz"
-  end
-  if fizz / 5
-    puts "Buzz"
-  end
   if fizz / 5 || 3
     puts "FizzBuzz"
+  elsif fizz / 3
+    puts "Fizz"
+  elsif fizz / 5
+    puts "Buzz"
+  end
+  
   end
   # if fizz !/ 5 || 3
   #   puts nil
