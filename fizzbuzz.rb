@@ -6,7 +6,7 @@ def fizzbuzz(fizz)
     return "Fizz"
   elsif fizz / 5
     return "Buzz"
-  elsif fizz / 5 || 3
+  else fizz / 5 || 3
     return "FizzBuzz"
   end
 end
