@@ -4,5 +4,4 @@
 def fizzbuzz(fizz)
   if fizz / 3
     return "Fizz"
-  
 end
