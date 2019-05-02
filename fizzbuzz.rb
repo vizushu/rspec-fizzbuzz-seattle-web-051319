@@ -14,3 +14,4 @@ def fizzbuzz(fizz)
 else
   puts
 end
+end
