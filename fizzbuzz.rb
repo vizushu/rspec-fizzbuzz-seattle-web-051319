@@ -4,6 +4,6 @@
 def fizzbuzz(Z)
   if Z / 3
     return "Fizz"
-  elsif Z / 5
+  else Z / 5
     return "Buzz"
 end
